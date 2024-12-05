@@ -920,6 +920,10 @@ GameObject:
   - component: {fileID: 1978910185117842128}
   - component: {fileID: 6403147648426627314}
   - component: {fileID: 5441342435728913607}
+  - component: {fileID: 4902368637530185329}
+  - component: {fileID: -5999425914733547151}
+  - component: {fileID: 9178212619964591443}
+  - component: {fileID: 5879636198090838439}
   m_Layer: 0
   m_Name: OptionsMenu_DifficultySelected
   m_TagString: Untagged
@@ -1114,6 +1118,62 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_TargetScreenNodeId: 19:100
+--- !u!114 &4902368637530185329
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6716816883462722939}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bc9518fe15bbab4aba0ab3bc8a1de56, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TargetScreenNodeId: 8:12
+  delay: 20
+--- !u!114 &-5999425914733547151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6716816883462722939}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96f929b945e20044c9fc46ba467c6ae6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TargetScreenNodeId: 19:109
+  InputType: Up
+--- !u!114 &9178212619964591443
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6716816883462722939}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96f929b945e20044c9fc46ba467c6ae6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TargetScreenNodeId: 19:100
+  InputType: Down
+--- !u!114 &5879636198090838439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6716816883462722939}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96f929b945e20044c9fc46ba467c6ae6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TargetScreenNodeId: 5:2
+  InputType: Cancel
 --- !u!1 &8909821251800018280
 GameObject:
   m_ObjectHideFlags: 0

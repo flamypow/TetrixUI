@@ -339,6 +339,8 @@ GameObject:
   - component: {fileID: 36620131218005774}
   - component: {fileID: 5884138321622613393}
   - component: {fileID: 6181454828391898418}
+  - component: {fileID: 8443022248560133520}
+  - component: {fileID: 3108926932661222321}
   m_Layer: 0
   m_Name: MainMenu_PressStart
   m_TagString: Untagged
@@ -529,6 +531,35 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_TargetScreenNodeId: 8:22
+--- !u!114 &8443022248560133520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8406744449882160390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bc9518fe15bbab4aba0ab3bc8a1de56, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TargetScreenNodeId: 8:22
+  delay: 5
+--- !u!114 &3108926932661222321
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8406744449882160390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96f929b945e20044c9fc46ba467c6ae6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TargetScreenNodeId: 5:2
+  _transitionDelayScript: {fileID: 8443022248560133520}
+  InputType: Submit
 --- !u!1 &9013203789092063121
 GameObject:
   m_ObjectHideFlags: 0

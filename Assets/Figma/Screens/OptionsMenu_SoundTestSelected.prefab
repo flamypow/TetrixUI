@@ -169,6 +169,10 @@ GameObject:
   - component: {fileID: 1237132060632542993}
   - component: {fileID: 2725098993856338225}
   - component: {fileID: 765549451385370126}
+  - component: {fileID: 1327227034011503851}
+  - component: {fileID: -1477577618417365267}
+  - component: {fileID: -2779478528268968568}
+  - component: {fileID: -3473239137484395838}
   m_Layer: 0
   m_Name: OptionsMenu_SoundTestSelected
   m_TagString: Untagged
@@ -363,6 +367,62 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_TargetScreenNodeId: 19:109
+--- !u!114 &1327227034011503851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2399684617282970388}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bc9518fe15bbab4aba0ab3bc8a1de56, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TargetScreenNodeId: 8:12
+  delay: 20
+--- !u!114 &-1477577618417365267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2399684617282970388}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96f929b945e20044c9fc46ba467c6ae6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TargetScreenNodeId: 16:86
+  InputType: Up
+--- !u!114 &-2779478528268968568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2399684617282970388}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96f929b945e20044c9fc46ba467c6ae6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TargetScreenNodeId: 19:109
+  InputType: Down
+--- !u!114 &-3473239137484395838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2399684617282970388}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96f929b945e20044c9fc46ba467c6ae6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TargetScreenNodeId: 5:2
+  InputType: Cancel
 --- !u!1 &3233170991074545201
 GameObject:
   m_ObjectHideFlags: 0

@@ -608,6 +608,8 @@ GameObject:
   - component: {fileID: 5675057357420837465}
   - component: {fileID: 2089939329258606065}
   - component: {fileID: 8846984091813931995}
+  - component: {fileID: -2100919401506640957}
+  - component: {fileID: 7807856761829226999}
   m_Layer: 0
   m_Name: MainMenu_HighScoreDisplay
   m_TagString: Untagged
@@ -812,6 +814,35 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_TargetScreenNodeId: 8:12
+--- !u!114 &-2100919401506640957
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1885999289534406406}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bc9518fe15bbab4aba0ab3bc8a1de56, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TargetScreenNodeId: 8:12
+  delay: 5
+--- !u!114 &7807856761829226999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1885999289534406406}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96f929b945e20044c9fc46ba467c6ae6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TargetScreenNodeId: 5:2
+  _transitionDelayScript: {fileID: -2100919401506640957}
+  InputType: Submit
 --- !u!1 &2207140553703189433
 GameObject:
   m_ObjectHideFlags: 0
