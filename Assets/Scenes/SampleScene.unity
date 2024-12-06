@@ -263,8 +263,33 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_TargetScreenNodeId: 8:12
-  _transitionDelayScript: {fileID: 232536336}
   InputType: Submit
+--- !u!114 &232536338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 232536324}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59f8146938fff824cb5fd77236b75775, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Padding:
+    m_Left: 0
+    m_Right: 0
+    m_Top: 0
+    m_Bottom: 0
+  m_ChildAlignment: 4
+  m_Spacing: 0
+  m_ChildForceExpandWidth: 1
+  m_ChildForceExpandHeight: 1
+  m_ChildControlWidth: 0
+  m_ChildControlHeight: 0
+  m_ChildScaleWidth: 0
+  m_ChildScaleHeight: 0
+  m_ReverseArrangement: 0
 --- !u!224 &614447368 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6892956003890051086, guid: d7963c2a080cd9942831d2d3823dfb97, type: 3}
@@ -649,6 +674,22 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4459660466274467618, guid: 93e8f129ec0b7ba49b26eb3667abac02, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4459660466274467618, guid: 93e8f129ec0b7ba49b26eb3667abac02, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4459660466274467618, guid: 93e8f129ec0b7ba49b26eb3667abac02, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4459660466274467618, guid: 93e8f129ec0b7ba49b26eb3667abac02, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7965984903543663972, guid: 93e8f129ec0b7ba49b26eb3667abac02, type: 3}
       propertyPath: m_Name
       value: Intro
@@ -663,6 +704,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7965984903543663972, guid: 93e8f129ec0b7ba49b26eb3667abac02, type: 3}
       insertIndex: -1
       addedObject: {fileID: 232536337}
+    - targetCorrespondingSourceObject: {fileID: 7965984903543663972, guid: 93e8f129ec0b7ba49b26eb3667abac02, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 232536338}
   m_SourcePrefab: {fileID: 100100000, guid: 93e8f129ec0b7ba49b26eb3667abac02, type: 3}
 --- !u!1 &2067500484
 GameObject:
